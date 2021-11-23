@@ -4,8 +4,11 @@ import random
 import re
 import sys
 
+
 # Complete the countTriplets function below.
 def countTriplets(arr, r):
+    pass
+
 
 if __name__ == '__main__':
     nr = input().rstrip().split()
