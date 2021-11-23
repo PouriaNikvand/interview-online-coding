@@ -20,22 +20,12 @@ def maxMin(k, arr):
     pass
     # Write your code here
 
-
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     n = int(input().strip())
-
     k = int(input().strip())
-
     arr = []
-
     for _ in range(n):
         arr_item = int(input().strip())
         arr.append(arr_item)
 
-    result = maxMin(k, arr)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    maxMin(k, arr)
